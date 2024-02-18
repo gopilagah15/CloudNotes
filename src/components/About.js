@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
    <div className="container">
-    <h1>iNotebook- your notes on Cloud</h1>
+    <h1>iNotebook- Your notes on Cloud</h1>
     <div id="carouselExample" className="carousel slide">
   <div className="carousel-inner">
     <div className="carousel-item active">
