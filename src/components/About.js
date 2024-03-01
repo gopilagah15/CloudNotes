@@ -1,32 +1,23 @@
-import React from 'react'
-
+import React from 'react'  
 const About = () => {
   return (
-   <div className="container">
-    <h1>iNotebook- Your notes on Cloud</h1>
-    <div id="carouselExample" className="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{width:"40px",height:"600px"}} className="d-block w-100" alt="..."/>
+    <>
+   
+    <div className="container mt-3   d-flex align-items-center justify-content-center" style={{width: '1650px', height:'300px'}}>
+    <div className= "row ">
+      <div className="col-md-4" style={{width: '1850px', height:'300px'}}>
+    <h1 className="container mt-3" style={{width: '1650px', height:'300px', opacity:'0.6'}} >The most important thing is that your notes work for you. They should help you remember information, organize your thoughts, and understand complex topics more clearly. Keep your notes meaningful.</h1>
+   
     </div>
-    <div className="carousel-item">
-      <img src="https://images.unsplash.com/photo-1517817748493-49ec54a32465?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="..."/>
     </div>
-    <div className="carousel-item">
-      <img src="https://media.istockphoto.com/id/1190841829/photo/business-team-brainstorming-and-discussing-with-financial-data-and-report-graph-teamwork.webp?s=170667a&w=0&k=20&c=FncVfhNgHpCkD5RhVJyjKs9MiQfpmMdAOyYqytjH4pY=" className="d-block w-100" alt="..."/>
     </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-   </div>
+    <img src="https://images.unsplash.com/photo-1605256585681-455837661b18?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5vdGVzfGVufDB8fDB8fHww" style={{width: '1650px', height:'300px', opacity:'0.5'}} alt="" />
+    </>
   )
 }
 
 export default About
+
+  // <div className="container">
+  //   <img src="https://images.unsplash.com/photo-1578450671530-5b6a7c9f32a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5vdGVzfGVufDB8fDB8fHww" alt="" />
+  //   </div>
